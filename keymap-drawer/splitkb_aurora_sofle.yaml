@@ -1,67 +1,9 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
-  default:
-  - {t: ESC, s: '`'}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: '~', s: '&caps_word'}
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: BACKSPACE, s: DELETE}
-  - LSHFT
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ''''
-  - LCTRL
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - MUTE
-  - ''
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - RSHFT
-  - LGUI
-  - RGB TOG
-  - LALT
-  - lower
-  - SPACE
-  - RET
-  - raise
-  - RCTRL
-  - RALT
-  - RGUI
+  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '', ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z,
+    X, C, V, B, EP ON, EP OFF, N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI]
   lower:
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -73,7 +15,6 @@ layers:
   - F9
   - F10
   - F11
-  - F12
   - '`'
   - '1'
   - '2'
@@ -85,7 +26,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - ''
+  - F12
   - {t: ▽, type: trans}
   - '!'
   - '@'
@@ -142,10 +83,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PG UP
-  - HOME
-  - UP
-  - END
   - {t: ▽, type: trans}
+  - UP
+  - {t: ▽, type: trans}
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LALT
@@ -184,18 +125,33 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   adjust:
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
+  - EP TOG
+  - RGB HUD
+  - RGB HUI
+  - RGB SAD
+  - RGB SAI
   - RGB EFF
   - ''
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - RGB BRD
+  - RGB BRI
   - ''
   - ''
   - ''
@@ -207,40 +163,25 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ''
-  - PREV
-  - PP
-  - NEXT
   - ''
+  - ''
+  - ''
+  - RGB TOG
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - ''
-  - RA(S)
-  - RA(Q)
-  - RA(P)
-  - RA(Y)
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
